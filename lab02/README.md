@@ -17,11 +17,11 @@
 
 <img width="798" height="50" alt="image" src="https://github.com/user-attachments/assets/214576e1-3f09-4807-83c9-2177c1641fa5" />
 
-1. Удалил временные файлы:
+### 1. Удалил временные файлы:
 
 Удалил папки bin и obj.
 
-2. Попытка запуска без сборки:
+### 2. Попытка запуска без сборки:
 
 ```bash
 dotnet run --no-build
@@ -37,7 +37,7 @@ dotnet build
 
 <img width="851" height="358" alt="image" src="https://github.com/user-attachments/assets/24c4c160-8e58-449c-ae6b-54cc0b4a7705" />
 
-2.2 Базовые инструкции
+### 2.2 Базовые инструкции
 2.2.1 Вывод текста
 
 ```
@@ -45,7 +45,7 @@ Console.WriteLine("Hello, World");
 ```
 <img width="611" height="61" alt="image" src="https://github.com/user-attachments/assets/34a39c25-7e84-47ef-a86b-43276b304ed3" />
 
-2.2.2 Функция, печатающая A, B, C с повторением
+### 2.2.2 Функция, печатающая A, B, C с повторением
 
 ```
 void PrintABC()
@@ -65,7 +65,7 @@ for (int i = 0; i < 3; i++)
 
 <img width="659" height="241" alt="image" src="https://github.com/user-attachments/assets/e42c4a4c-d4fc-4745-a02e-c2a8253510df" />
 
-2.2.3 Функции A, B, C
+### 2.2.3 Функции A, B, C
 ```
 void B()
 {
@@ -90,15 +90,12 @@ A();
 
 ```
 
-Результат:
+## Результат:
 <img width="657" height="164" alt="image" src="https://github.com/user-attachments/assets/81a0f71f-a61f-43b9-a9d0-23c6b2998ed6" />
 
 
-3. Выводы
+## 3. Выводы
 Для запуска программы необходимо собрать проект, иначе исполняемый файл отсутствует.
-
 Функции позволяют структурировать код, повторно использовать блоки инструкций и управлять порядком выполнения.
-
 Порядок определения функций в C# не критичен, но вызов без определения невозможен.
-
 Программа выполняется только при явном вызове функций.
