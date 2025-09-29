@@ -41,7 +41,16 @@ dotnet build
 2.2.1 Вывод текста
 
 ```
-Console.WriteLine("Hello, World");
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
+
 ```
 <img width="611" height="61" alt="image" src="https://github.com/user-attachments/assets/34a39c25-7e84-47ef-a86b-43276b304ed3" />
 
