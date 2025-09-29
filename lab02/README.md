@@ -25,6 +25,7 @@
 
 ```bash
 dotnet run --no-build
+```
 Наблюдение: команда выдаёт ошибку, потому что исполняемый файл отсутствует после удаления временных папок. --no-build запускает только уже собранный проект.
 
 <img width="1455" height="111" alt="image" src="https://github.com/user-attachments/assets/3e7303e4-018a-42a4-ae1f-c5bdbef990df" />
@@ -39,13 +40,14 @@ dotnet build
 2.2 Базовые инструкции
 2.2.1 Вывод текста
 
-csharp
+```
 Console.WriteLine("Hello, World");
-
+```
 <img width="611" height="61" alt="image" src="https://github.com/user-attachments/assets/34a39c25-7e84-47ef-a86b-43276b304ed3" />
 
 2.2.2 Функция, печатающая A, B, C с повторением
 
+```
 void PrintABC()
 {
     Console.WriteLine("A");
@@ -58,12 +60,13 @@ for (int i = 0; i < 3; i++)
     PrintABC();
     System.Threading.Thread.Sleep(500);
 }
+```
 Результат:
 
 <img width="659" height="241" alt="image" src="https://github.com/user-attachments/assets/e42c4a4c-d4fc-4745-a02e-c2a8253510df" />
 
 2.2.3 Функции A, B, C
-
+```
 void B()
 {
     Console.WriteLine("B");
@@ -84,8 +87,10 @@ void A()
 // Вызов функции A несколько раз
 A();
 A();
-Результат:
 
+```
+
+Результат:
 <img width="657" height="164" alt="image" src="https://github.com/user-attachments/assets/81a0f71f-a61f-43b9-a9d0-23c6b2998ed6" />
 
 
