@@ -15,12 +15,11 @@
 
 ### 2.1 Компилирование и запуск
 
+<img width="798" height="50" alt="image" src="https://github.com/user-attachments/assets/214576e1-3f09-4807-83c9-2177c1641fa5" />
+
 1. Удалил временные файлы:
 
 Удалил папки bin и obj.
-
-arduino
-Копировать код
 
 2. Попытка запуска без сборки:
 
@@ -28,33 +27,25 @@ arduino
 dotnet run --no-build
 Наблюдение: команда выдаёт ошибку, потому что исполняемый файл отсутствует после удаления временных папок. --no-build запускает только уже собранный проект.
 
+<img width="1455" height="111" alt="image" src="https://github.com/user-attachments/assets/3e7303e4-018a-42a4-ae1f-c5bdbef990df" />
+
 Воссоздание исполняемого файла:
-
-bash
-Копировать код
 dotnet build
-Файл появился в папке bin\Debug\netX.X\.
 
-Двойной клик открывает окно консоли, которое сразу закрывается.
+Файл появился в папке bin\Debug
 
-Чтобы увидеть результат, запускал через консоль:
+<img width="851" height="358" alt="image" src="https://github.com/user-attachments/assets/24c4c160-8e58-449c-ae6b-54cc0b4a7705" />
 
-bash
-Копировать код
-cd bin\Debug\netX.X
-dotnet Lab2.dll
 2.2 Базовые инструкции
 2.2.1 Вывод текста
-csharp
-Копировать код
-Console.WriteLine("Hello, Jerry");
-Вывод в консоль:
 
-Копировать код
-Hello, Jerry
-2.2.2 Функция, печатающая A, B, C с повторением
 csharp
-Копировать код
+Console.WriteLine("Hello, World");
+
+<img width="611" height="61" alt="image" src="https://github.com/user-attachments/assets/34a39c25-7e84-47ef-a86b-43276b304ed3" />
+
+2.2.2 Функция, печатающая A, B, C с повторением
+
 void PrintABC()
 {
     Console.WriteLine("A");
@@ -65,24 +56,14 @@ void PrintABC()
 for (int i = 0; i < 3; i++)
 {
     PrintABC();
-    System.Threading.Thread.Sleep(500); // задержка 0.5 сек
+    System.Threading.Thread.Sleep(500);
 }
 Результат:
 
-css
-Копировать код
-A
-B
-C
-A
-B
-C
-A
-B
-C
+<img width="659" height="241" alt="image" src="https://github.com/user-attachments/assets/e42c4a4c-d4fc-4745-a02e-c2a8253510df" />
+
 2.2.3 Функции A, B, C
-csharp
-Копировать код
+
 void B()
 {
     Console.WriteLine("B");
@@ -105,23 +86,8 @@ A();
 A();
 Результат:
 
-css
-Копировать код
-A
-B
-C
-A
-B
-C
-Вывод:
+<img width="657" height="164" alt="image" src="https://github.com/user-attachments/assets/81a0f71f-a61f-43b9-a9d0-23c6b2998ed6" />
 
-Если функцию не вызвать, она не выполняется.
-
-Порядок определения функций в классе неважен, можно ссылаться на функции, определённые позже.
-
-Определение функции – это блок кода с её телом, где прописано, что функция делает.
-
-Вызов функции – это команда выполнить эту функцию.
 
 3. Выводы
 Для запуска программы необходимо собрать проект, иначе исполняемый файл отсутствует.
