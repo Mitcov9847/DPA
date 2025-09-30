@@ -99,7 +99,7 @@ A();
 
 ```
 
-## Результат:
+#### Результат:
 <img width="657" height="164" alt="image" src="https://github.com/user-attachments/assets/81a0f71f-a61f-43b9-a9d0-23c6b2998ed6" />
 
 
