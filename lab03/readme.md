@@ -23,6 +23,7 @@
 
 ```powershell
 git clone https://github.com/Mitcov9847/DPA.git
+```
 После выполнения команды локальная копия репозитория появилась в папке C:\Users\mihai\DPA.
 
 <img width="917" height="186" alt="image" src="https://github.com/user-attachments/assets/88189491-6971-44a7-9d3d-9c3cacbe5106" />
