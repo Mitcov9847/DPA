@@ -28,7 +28,7 @@ git clone https://github.com/Mitcov9847/DPA.git
 
 <img width="917" height="186" alt="image" src="https://github.com/user-attachments/assets/88189491-6971-44a7-9d3d-9c3cacbe5106" />
 
-2.2 Переход в папку проекта lab03
+### 2.2 Переход в папку проекта lab03
 ```
 cd C:\Users\mihai\DPA\lab03
 ```
@@ -38,7 +38,7 @@ git init
 ```
 <img width="663" height="49" alt="image" src="https://github.com/user-attachments/assets/bee4b871-838f-4339-989e-616ecbfd4e70" />
 
-2.4 Создание файла .gitignore
+### 2.4 Создание файла .gitignore
 ```
 Файл .gitignore был создан для игнорирования временных и сгенерированных файлов:
 echo node_modules/ > .gitignore
@@ -48,24 +48,24 @@ echo __pycache__/ >> .gitignore
 ```
 <img width="870" height="98" alt="image" src="https://github.com/user-attachments/assets/31b0f53b-5ac6-4709-8164-b05fe107712b" />
 
-2.5 Настройка данных пользователя в Git
+### 2.5 Настройка данных пользователя в Git
 ```
 git config user.name "Mitcov9847"
 git config user.email "malcolmmarvellous@.com"
 ```
 <img width="1050" height="44" alt="image" src="https://github.com/user-attachments/assets/17d4444f-9969-404c-a140-4a979022e5f2" />
 
-2.6 Добавление файлов и первый коммит
+### 2.6 Добавление файлов и первый коммит
 ```
 git add .
 git commit -m "Первый коммит: добавлены файлы проекта lab03 и .gitignore"
 ```
 <img width="1067" height="113" alt="image" src="https://github.com/user-attachments/assets/c802396e-2d32-4435-b007-9b5bb0046ed2" />
 
-2.7 Создание удалённого репозитория на GitHub
+### 2.7 Создание удалённого репозитория на GitHub
 Был создан новый репозиторий DPA_lab03 на GitHub:
 
-2.8 Связь локального репозитория с GitHub
+### 2.8 Связь локального репозитория с GitHub
 Удалённый репозиторий был привязан к локальному:
 ```
 git remote remove origin
@@ -73,13 +73,13 @@ git remote add origin https://github.com/Mitcov9847/DPA_lab03.git
 ```
 <img width="1069" height="128" alt="image" src="https://github.com/user-attachments/assets/842f46d8-247c-4ac7-8677-bb71ba723b5a" />
 
-2.9 Переименование ветки в main
+### 2.9 Переименование ветки в main
 ```
 git branch -M main
 ```
 <img width="808" height="46" alt="image" src="https://github.com/user-attachments/assets/d39d7108-e1e2-4faa-b010-9a5d2d1159ad" />
 
-2.10 Загрузка проекта на GitHub
+### 2.10 Загрузка проекта на GitHub
 
 Так как удалённый репозиторий содержал файлы, был выполнен принудительный пуш:
 ```
