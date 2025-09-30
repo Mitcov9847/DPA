@@ -29,23 +29,23 @@ git clone https://github.com/Mitcov9847/DPA.git
 <img width="917" height="186" alt="image" src="https://github.com/user-attachments/assets/88189491-6971-44a7-9d3d-9c3cacbe5106" />
 
 2.2 Переход в папку проекта lab03
-
+```
 cd C:\Users\mihai\DPA\lab03
-
+```
 2.3 Инициализация локального Git-репозитория
-
+```
 git init
-
+```
 <img width="663" height="49" alt="image" src="https://github.com/user-attachments/assets/bee4b871-838f-4339-989e-616ecbfd4e70" />
 
 2.4 Создание файла .gitignore
-
+```
 Файл .gitignore был создан для игнорирования временных и сгенерированных файлов:
 echo node_modules/ > .gitignore
 echo .vscode/ >> .gitignore
 echo *.log >> .gitignore
 echo __pycache__/ >> .gitignore
-
+```
 <img width="870" height="98" alt="image" src="https://github.com/user-attachments/assets/31b0f53b-5ac6-4709-8164-b05fe107712b" />
 
 2.5 Настройка данных пользователя в Git
